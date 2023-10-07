@@ -15,7 +15,7 @@ int is_digit(char *s)
 {
 	int k = 0;
 
-	while (s[i])
+	while (s[k])
 	{
 		if (s[k] < '0' || s[k] > '9')
 			return (0);
